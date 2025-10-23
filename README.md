@@ -37,24 +37,24 @@ Gana el primero que hunda todos los barcos del oponente.
 
 ## Funcionalidades principales
 
-- utils.py
+#### utils.py
 
 Contiene todas las funciones que gestionan la lógica del juego.
 
-- variables.py
+#### variables.py
 
 Define las flotas iniciales de jugador y rival
 
-- main.py
+#### main.py
 
 Ejecuta el flujo principal del juego:
 
-    + Crea los tableros.
++ Crea los tableros.
 
-    + Coloca los barcos.
++ Coloca los barcos.
 
-    + Muestra ambos tableros.
++ Muestra ambos tableros.
 
-    + Inicia la partida con jugar().
++ Inicia la partida con jugar().
 
 ### Autor: Rebeca Pérez
