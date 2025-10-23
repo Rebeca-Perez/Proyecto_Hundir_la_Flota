@@ -3,7 +3,6 @@ from utils import crear_tablero, crear_barco, colocar_barco, colocar_barcos, dis
 import variable
 
 
-
 tablero_jugador = crear_tablero()
 tablero_rival = crear_tablero()
 
@@ -11,10 +10,10 @@ tablero_rival = crear_tablero()
 tablero_jugador = colocar_barcos(variable.barcos_jugador, tablero_jugador)
 tablero_rival = colocar_barcos(variable.barcos_rival, tablero_rival)
 
-print("tablero jugador")
+print("Tablero Jugador")
 print(tablero_jugador)
 
-print("tablero rival")
+print("Tablero Rival")
 print(tablero_rival)
 
 
