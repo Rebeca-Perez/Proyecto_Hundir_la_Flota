@@ -79,7 +79,7 @@ def jugar(tablero_jugador, tablero_rival):
 
     turno = "jugador"
     continua = True
-    while continua:
+    while continua == True:
         if turno == "jugador":
             print("Tu turno")
             fila = int(input("Elige una fila de 0 a 9:"))
@@ -87,6 +87,8 @@ def jugar(tablero_jugador, tablero_rival):
             tablero_rival = disparar(tablero_rival, fila, columna)
             if tablero_rival[fila,columna] == "A":
                 turno = "rival"
+            print("Tablero rival")
+            print(tablero_rival)
         else:
             print("Turno rival")
             fila = np.random.randint(0,9)
@@ -95,6 +97,8 @@ def jugar(tablero_jugador, tablero_rival):
             tablero_jugador = disparar(tablero_jugador, fila, columna)
             if tablero_jugador[fila, columna] == "A":
                 turno = "jugador"
+            print("Tablero jugador")
+            print(tablero_jugador)
         
         if not np.any(tablero_jugador == "O"):
             print("Lo siento, has perdido. Vuelve a intentarlo!")

@@ -7,8 +7,8 @@ tablero_jugador = crear_tablero()
 tablero_rival = crear_tablero()
 
 
-tablero_jugador = colocar_barcos(variable.barcos_jugador, tablero_jugador)
-tablero_rival = colocar_barcos(variable.barcos_rival, tablero_rival)
+colocar_barcos(variable.barcos_jugador, tablero_jugador)
+colocar_barcos(variable.barcos_rival, tablero_rival)
 
 print("Tablero Jugador")
 print(tablero_jugador)
